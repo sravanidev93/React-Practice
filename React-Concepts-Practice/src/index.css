@@ -1,0 +1,27 @@
+
+.products{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    gap:16px;
+    justify-content: center;
+}
+.product-item{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: center;
+    justify-content: space-between;
+    border: 2px solid thistle;
+    box-shadow: 2px 10px 15px 5px tan;
+    padding: 12px;
+}
+
+#category-list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: large;
+    margin-bottom: 100px;
+}
