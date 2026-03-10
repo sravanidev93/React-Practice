@@ -1,0 +1,160 @@
+.To-do-list {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    /* most important stretch property here */
+    align-items: stretch;
+    justify-content: center;
+    list-style: none;
+    margin-left: 60px;
+    gap: 12px;
+}
+
+body {
+    background-color: rgb(203, 245, 144);
+}
+
+#todo-app {
+    width: 600px;
+    height: auto;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 12px;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+}
+
+.to-do-tasks {
+    font-size: x-large;
+    max-width: 400px;
+    width: 100%;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: rgb(226, 244, 201);
+
+}
+
+.To-do-list li {
+    width: 100%;
+}
+
+.to-do-tasks input {
+    width: 20px;
+    height: 20px;
+}
+
+.delete-btn {
+    margin-left: auto;
+}
+
+.delete-btn,
+.add-btn {
+    padding: 8px;
+    background-color: rgb(52, 44, 44);
+    color: white;
+    transition: transform 0.3s ease-in-out;
+    border-radius: 6px;
+    font-size: large;
+}
+
+.delete-btn:active,
+.add-btn:active {
+    transform: scale(0.5);
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+#header input {
+    border-radius: 12px;
+    width: 300px;
+    padding: 8px;
+    font-weight: 400;
+    font-size: large;
+}
+
+@media screen and (max-width:450px) {
+    .To-do-list {
+        width: 200px;
+        margin-left: 12px;
+        gap: 16px;
+    }
+
+    body {
+        background-color: rgb(168, 252, 231);
+    }
+
+    #todo-app {
+        width: 350px;
+        height: auto;
+        margin: 10px auto;
+        border-radius: 5px;
+        padding: 2px;
+    }
+
+    .to-do-tasks {
+        background-color: rgb(204, 250, 232);
+        gap: 8px;
+        padding: 8px;
+        border-radius: 15px;
+    }
+
+    #header {
+
+        gap: 8px;
+    }
+
+    #header input {
+        border-radius: 8px;
+        width: 230px;
+        padding: 8px;
+        margin-left: 16px;
+    }
+}
+
+@media screen and (min-width:450px) and (max-width:700px) {
+    #todo-app {
+        width: 500px;
+        height: auto;
+        margin: 50px auto;
+        border-radius: 8px;
+        padding: 6px;
+    }
+
+    .To-do-list {
+        width: 300px;
+        margin-left: 12px;
+        gap: 16px;
+    }
+
+    body {
+        background-color: #f58bea;
+    }
+
+    .to-do-tasks {
+        background-color: #fed1fa;
+    }
+
+
+    #header {
+
+        gap: 8px;
+    }
+
+    #header input {
+        border-radius: 6px;
+        width: 350px;
+        padding: 8px;
+    }
+}
