@@ -2,10 +2,10 @@ export default function TodoReducer(tasks, action) {
     const { type } = action;
     switch (type) {
         case "add":
-            const { text } = action;
+            const { task } = action;
             return [...tasks, {
                 id: Date.now(),
-                task: text,
+                task: task,
                 status: false
             }]
         case "update":

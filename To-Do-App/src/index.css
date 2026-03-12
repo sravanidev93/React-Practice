@@ -30,8 +30,6 @@ body {
     align-items: center;
     justify-content: center;
     gap: 0px;
-
-
 }
 
 .completed {
@@ -63,7 +61,6 @@ body {
     padding: 12px;
     border-radius: 15px;
     background-color: rgb(226, 244, 201);
-
 }
 
 .To-do-list li {
@@ -192,7 +189,6 @@ body {
         box-sizing: border-box;
     }
 
-
     body {
         background-color: #f58bea;
     }
@@ -200,7 +196,6 @@ body {
     .to-do-tasks {
         background-color: #fed1fa;
     }
-
 
     #header {
         gap: 8px;
