@@ -22,6 +22,30 @@ body {
     padding: 12px;
 }
 
+#completed-todos {
+    width: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0px;
+
+
+}
+
+.completed {
+    font-size: large;
+    font-weight: 600;
+    background-color: rgb(219, 246, 182);
+    width: 100%;
+    padding: 12px;
+    border-radius: 12px;
+    color: rgb(149, 221, 77);
+    box-sizing: border-box;
+
+}
+
 #title {
     display: flex;
     justify-content: center;
@@ -103,6 +127,22 @@ body {
         padding: 2px;
     }
 
+    #completed-todos {
+        width: 350px;
+        margin-left: 10px;
+    }
+
+    .completed {
+        width: 300px;
+        font-size: large;
+        font-weight: 600;
+        background-color: rgb(204, 250, 232);
+        padding: 5px;
+        border-radius: 5px;
+        color: rgb(97, 183, 150);
+        box-sizing: border-box;
+    }
+
     .to-do-tasks {
         background-color: rgb(204, 250, 232);
         gap: 8px;
@@ -111,7 +151,6 @@ body {
     }
 
     #header {
-
         gap: 8px;
     }
 
@@ -138,6 +177,22 @@ body {
         gap: 16px;
     }
 
+    #completed-todos {
+        width: 500px;
+    }
+
+    .completed {
+        width: 400px;
+        font-size: large;
+        font-weight: 600;
+        background-color: #fed1fa;
+        padding: 12px;
+        border-radius: 15px;
+        color: #de82d6;
+        box-sizing: border-box;
+    }
+
+
     body {
         background-color: #f58bea;
     }
@@ -148,7 +203,6 @@ body {
 
 
     #header {
-
         gap: 8px;
     }
 
